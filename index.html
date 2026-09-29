@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Bauni ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Parisienne&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- =====================================
+         WELCOME
+    ====================================== -->
+
+    <section id="welcome" class="page active">
+
+        <div class="welcome-card">
+
+            <div class="script subtitle">
+                a little magical something for you ♡
+            </div>
+
+            <h1>Dear Bauni</h1>
+
+            <p class="welcome-small">
+                ✦ come a little closer...
+            </p>
+
+            <button class="magic-btn" onclick="showSection('birthday')">
+                Open your little surprise ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         BIRTHDAY
+    ====================================== -->
+
+    <section id="birthday" class="page">
+
+        <div class="birthday-content">
+
+            <p class="script">Today is all about you...</p>
+
+            <h2>
+                Happy Birthday,<br>
+                Gautmi! ♡
+            </h2>
+
+            <div class="date">
+                30 • 09
+            </div>
+
+            <p>
+                A tiny little world made just for the birthday girl.
+            </p>
+
+            <br>
+
+            <button class="magic-btn" onclick="showSection('girl')">
+                Keep going ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         BIRTHDAY GIRL
+    ====================================== -->
+
+    <section id="girl" class="page">
+
+        <div class="girl-content content">
+
+            <p class="script">The girl of the day ♡</p>
+
+            <h2>Meet the birthday girl</h2>
+
+            <div class="portrait-frame portrait">
+
+                <img src="photos/bauni1.jpeg" alt="Bauni">
+
+            </div>
+
+            <br>
+
+            <p>
+                Gautmi — or as some people know her...
+                <strong>Bauni</strong>. 🎀
+            </p>
+
+            <br>
+
+            <button class="magic-btn" onclick="showSection('things')">
+                There's more ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         THINGS
+    ====================================== -->
+
+    <section id="things" class="page">
+
+        <div class="things-content">
+
+            <p class="script">A few little things...</p>
+
+            <h2>Things that make you special</h2>
+
+            <div class="flower-grid">
+
+                <button class="flower"
+                    onclick="openNote('Your kindness is one of the most beautiful things about you. ♡')">
+
+                    <span>🌷</span>
+                    Your kindness
+
+                </button>
+
+
+                <button class="flower"
+                    onclick="openNote('You have such a caring heart, and you make people feel comfortable around you. ♡')">
+
+                    <span>🌸</span>
+                    Your caring heart
+
+                </button>
+
+
+                <button class="flower"
+                    onclick="openNote('You have your own opinions and your own way of seeing things — and that makes you special. ✨')">
+
+                    <span>🌼</span>
+                    Your own way
+
+                </button>
+
+
+                <button class="flower"
+                    onclick="openNote('Talking to you can somehow make everything feel a little lighter. 🫂')">
+
+                    <span>🌹</span>
+                    Your presence
+
+                </button>
+
+
+                <button class="flower"
+                    onclick="openNote('You are stronger than you sometimes realise. Always remember that. 🤍')">
+
+                    <span>🌺</span>
+                    Your strength
+
+                </button>
+
+
+                <button class="flower"
+                    onclick="openNote('And most importantly... just being you. ♡')">
+
+                    <span>🪻</span>
+                    Just you
+
+                </button>
+
+            </div>
+
+            <br><br>
+
+            <button class="magic-btn" onclick="showSection('memories')">
+                Little memories ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         MEMORIES
+    ====================================== -->
+
+    <section id="memories" class="page">
+
+        <div class="memories-content">
+
+            <p class="script">moments worth keeping...</p>
+
+            <h2>Your little memories ♡</h2>
+
+            <div class="memory-grid">
+
+                <div class="memory-box">
+
+                    <img src="photos/bauni4.jpeg" alt="Memory">
+
+                    <div class="memory-caption">
+                        a little moment ♡
+                    </div>
+
+                </div>
+
+
+                <div class="memory-box">
+
+                    <img src="photos/bauni5.jpeg" alt="Memory">
+
+                    <div class="memory-caption">
+                        another one to keep ♡
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <button class="magic-btn" onclick="showSection('videos')">
+                And then there were videos 🎀
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         VIDEOS
+    ====================================== -->
+
+    <section id="videos" class="page">
+
+        <div class="videos-content">
+
+            <p class="script">moving memories...</p>
+
+            <h2>Little moments 🎀</h2>
+
+            <p class="video-subtitle">
+                because some memories are better when they move ♡
+            </p>
+
+
+            <div class="video-stack">
+
+                <div class="video-card">
+
+                    <video controls playsinline preload="metadata">
+
+                        <source
+                            src="photos/videos-temp/bauni2.mp4"
+                            type="video/mp4">
+
+                        Your browser does not support this video.
+
+                    </video>
+
+                    <div class="video-caption">
+                        one little memory ♡
+                    </div>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <video controls playsinline preload="metadata">
+
+                        <source
+                            src="photos/videos-temp/bauni3.mp4"
+                            type="video/mp4">
+
+                        Your browser does not support this video.
+
+                    </video>
+
+                    <div class="video-caption">
+                        another little moment ♡
+                    </div>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <video controls playsinline preload="metadata">
+
+                        <source
+                            src="photos/videos-temp/bauni6.mp4"
+                            type="video/mp4">
+
+                        Your browser does not support this video.
+
+                    </video>
+
+                    <div class="video-caption">
+                        one more for the memories ♡
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <button class="magic-btn" onclick="showSection('strength')">
+                There's something I want you to know ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         STRENGTH
+    ====================================== -->
+
+    <section id="strength" class="page">
+
+        <div class="strength-content strength-card">
+
+            <p class="script">
+                and please remember this...
+            </p>
+
+            <h2 class="strong-text">
+                You ARE strong, Gautmi. 🤍
+            </h2>
+
+            <p>
+                I know you go through a lot, but you always stay strong,
+                and that's something I admire about you the most.
+            </p>
+
+            <p>
+                Even on the days when you don't feel strong,
+                I hope you remember that you are.
+            </p>
+
+            <br>
+
+            <button class="magic-btn" onclick="showSection('wishes')">
+                Make a little wish ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         WISH
+    ====================================== -->
+
+    <section id="wishes" class="page">
+
+        <div class="wish-content wish-card">
+
+            <p class="script wish-intro">
+                close your eyes for a second...
+            </p>
+
+            <h2>Make a wish ♡</h2>
+
+            <button
+                class="wish-btn"
+                type="button"
+                onclick="makeWish()">
+
+                ✨ Make your wish
+
+            </button>
+
+            <p id="wishMessage">
+                Tap the little star...
+            </p>
+
+            <br>
+
+            <button
+                class="magic-btn"
+                onclick="showSection('letter')">
+
+                One last thing ♡
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         LETTER
+    ====================================== -->
+
+    <section id="letter" class="page">
+
+        <div class="letter-content">
+
+            <div class="letter-paper">
+
+                <p
+                    class="script"
+                    style="font-size: 30px;">
+
+                    Dear Gautmi,
+
+                </p>
+
+                <h2>
+                    Happy Birthday ♡
+                </h2>
+
+                <p>
+                    On your special day, I just want to tell you how lucky
+                    I am to have you in my life.
+                </p>
+
+                <p>
+                    You are so loving, so caring, and genuinely the nicest soul.
+                    The way you care for everyone around you is so rare.
+                </p>
+
+                <p>
+                    I love the way we talk for hours, share memories,
+                    and spend time with each other. And I want to continue
+                    this <strong>forever</strong>.
+                </p>
+
+                <p>
+                    You understand things so well, and you have your own
+                    opinions and your own way of seeing things —
+                    and that's what makes you so special.
+                </p>
+
+                <p>
+                    Whenever I talk to you, I feel so much lighter.
+                </p>
+
+                <p>
+                    <strong>
+                        You ARE strong, Gautmi. 🤍
+                    </strong>
+                </p>
+
+                <p>
+                    I know you go through a lot, but you always stay strong,
+                    and that's what I admire the most about you.
+                </p>
+
+                <p>
+                    May all your dreams come true.
+                    Whatever you wish for in life, may you get it.
+                    I will always pray for your happiness.
+                </p>
+
+                <p>
+                    And I really mean this...
+                </p>
+
+                <p>
+                    <strong>
+                        I always want to keep you with me,
+                        and I want to be with you forever.
+                    </strong>
+                </p>
+
+                <p>
+                    <strong>
+                        Don't ever go anywhere. 🫂
+                    </strong>
+                </p>
+
+                <p>
+                    Thank you again for coming into my life
+                    and making it better than before.
+                </p>
+
+                <p
+                    class="script"
+                    style="font-size: 34px;">
+
+                    HAPPY BIRTHDAY,
+                    MYYY GURLLLL!! 🫂🎂🥳🎉
+
+                </p>
+
+                <p class="signature">
+                    — Bhondu ♡
+                </p>
+
+            </div>
+
+            <br>
+
+            <button
+                class="magic-btn"
+                onclick="showSection('forever')">
+
+                There's still one more thing... ♡
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         FOREVER
+    ====================================== -->
+
+    <section id="forever" class="page">
+
+        <div class="forever-content forever-card">
+
+            <p class="script">
+                if I could ask for one thing...
+            </p>
+
+            <h2>
+                I want you to stay.
+            </h2>
+
+            <p class="forever-text">
+                Through all the conversations,
+                random memories, silly moments,
+                difficult days and happy ones...
+            </p>
+
+            <p class="forever-text forever-highlight">
+                I want you to be somewhere in my life.
+            </p>
+
+            <p>
+                <strong>
+                    Don't ever go anywhere, Bauni. 🤍
+                </strong>
+            </p>
+
+            <br>
+
+            <button
+                class="magic-btn"
+                onclick="showSection('cake')">
+
+                Now let's celebrate 🎂
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CAKE
+    ====================================== -->
+
+    <section id="cake" class="page">
+
+        <div class="cake-content cake-container">
+
+            <p class="script cake-message">
+                one more birthday moment...
+            </p>
+
+            <h2>
+                Make a wish, birthday girl 🎂
+            </h2>
+
+            <div class="cake">
+
+                <div class="flame">
+                    🔥
+                </div>
+
+                <div class="candle"></div>
+
+                <div class="cake-top"></div>
+
+                <div class="cake-base"></div>
+
+            </div>
+
+            <br>
+
+            <button
+                class="magic-btn"
+                onclick="showSection('special-video')">
+
+                Blow the candle & continue ♡
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         🎀 SPECIAL VIDEO
+    ====================================== -->
+
+    <section
+        id="special-video"
+        class="page">
+
+        <div class="special-video-card">
+
+            <p class="special-label">
+                🎀 BAUNI, THIS ONE'S FOR YOU 🎀
+            </p>
+
+            <h2>
+                This one's a little different. ♡
+            </h2>
+
+            <div class="special-intro">
+
+                <p>
+                    We've had so many random conversations,
+                    stupid laughs, unforgettable moments and
+                    memories that I wouldn't trade for anything.
+                </p>
+
+                <p>
+                    I genuinely love the way we can talk for
+                    hours about absolutely anything. And honestly…
+                    <strong>
+                        I love your voice notes. 🎧🤍
+                    </strong>
+                    Somehow, even the random ones make my day
+                    a little better.
+                </p>
+
+                <p>
+                    I know I don't always say these things,
+                    but I'm genuinely grateful for every little
+                    moment we've shared.
+                </p>
+
+                <p>
+                    Maybe this is just a video.
+                    Maybe it's just a few moments put together.
+                </p>
+
+                <p>
+                    But to me, these little moments are memories
+                    I'll always want to keep.
+                </p>
+
+                <p class="special-highlight">
+                    Because some people quietly become a very
+                    important part of your life. 🤍
+                </p>
+
+                <p>
+                    So before this birthday ends…<br>
+                    here's one more little memory for you.
+                </p>
+
+            </div>
+
+            <button
+                class="special-play-btn"
+                onclick="playSpecialVideo()">
+
+                ▶ Press Play, Bauni ♡
+
+            </button>
+
+
+            <div
+                id="specialVideoBox"
+                class="special-video-box">
+
+                <video
+                    id="specialVideo"
+                    controls
+                    playsinline
+                    preload="metadata">
+
+                    <source
+                        src="photos/videos-temp/bauni7.mp4"
+                        type="video/mp4">
+
+                    Your browser does not support this video.
+
+                </video>
+
+            </div>
+
+
+            <div
+                id="oneLastThing"
+                class="one-last-thing">
+
+                <p class="last-label">
+                    Wait… ✦
+                </p>
+
+                <h3>
+                    There's one more thing.
+                </h3>
+
+                <p>
+                    I couldn't let your birthday end
+                    without this. 🫂
+                </p>
+
+                <button
+                    class="continue-final-btn"
+                    onclick="showSection('final')">
+
+                    Okay… now continue ♡
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         FINAL
+    ====================================== -->
+
+    <section id="final" class="page">
+
+        <div class="final-content final-card">
+
+            <p class="script final-label">
+                and finally...
+            </p>
+
+            <h2>
+                Happy Birthday,<br>
+                Gautmi ♡
+            </h2>
+
+            <div class="date">
+                30 • 09
+            </div>
+
+            <p class="final-message">
+                May this year bring you everything beautiful
+                that you deserve. 🌸
+            </p>
+
+            <p
+                class="script"
+                style="font-size: 35px;">
+
+                — Bhondu 🎀
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         POPUP
+    ====================================== -->
+
+    <div id="notePopup" class="popup">
+
+        <div class="popup-box">
+
+            <button
+                class="close-popup"
+                onclick="closeNote()">
+
+                ×
+
+            </button>
+
+            <div id="noteText"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
